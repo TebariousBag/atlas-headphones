@@ -236,3 +236,23 @@ footer {
 	}
 }
 
+@media (max-width: 480px) {
+	.footer-bar {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		gap: 10px;
+		}
+
+		.logo-footer {
+			margin-bottom: 20px;
+		}
+	.footer-links {
+		margin-top: 20px;
+	}
+
+	.copyright {
+		margin-bottom: 30px;
+	}
+}
