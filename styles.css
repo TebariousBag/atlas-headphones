@@ -10,6 +10,14 @@ a {
 	color: #ffffff;
 }
 
+a:hover, a:active {
+	color: #ff6565;
+}
+
+button:hover, button:active {
+	opacity: 0.9;
+}
+
 /* Header Section */
 header {
 	display: flex;
