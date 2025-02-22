@@ -229,3 +229,10 @@ footer {
 	opacity: 35.17%;
 	margin-bottom: 40px;
 }
+
+@media (max-width: 768px) {
+	.footer-bar {
+		width: 90%;
+	}
+}
+
