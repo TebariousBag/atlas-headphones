@@ -1,16 +1,34 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700;900&display=swap');
 
 /* This is the section for the custom holberton glyphs */
+
 @font-face {
-    font-family: 'HolbertonSchoolIcon';
-    src:  url('fonts/holberton_school-icon.eot');
-    src:  url('fonts/holberton_school-icon.eot?#iefix') format('embedded-opentype'),
-          url('fonts/holberton_school-icon.ttf') format('truetype'),
-          url('fonts/holberton_school-icon.woff') format('woff'),
-          url('fonts/holberton_school-icon.svg#HolbertonSchoolIcon') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
+	font-family: 'HolbertonSchoolIcon';
+	src:  url('fonts/holberton_school-icon.eot?sq4eq4');
+	src:  url('fonts/holberton_school-icon.eot?sq4eq4#iefix') format('embedded-opentype'),
+	  url('fonts/holberton_school-icon.ttf?sq4eq4') format('truetype'),
+	  url('fonts/holberton_school-icon.woff?sq4eq4') format('woff'),
+	  url('fonts/holberton_school-icon.svg?sq4eq4#holberton_school-icon') format('svg');
+	font-weight: normal;
+	font-style: bold;
+	font-display: block;
+	font-size: xx-large;
+  }
+  
+  [class^="glyph-"], [class*="icon-"] {
+	/* use !important to prevent issues with browser extensions that change fonts */
+	font-family: 'holberton_school-icon' !important;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+  
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+  }
 /* End of Holberton Glyphs */
 
 /* overall rules */
@@ -36,11 +54,10 @@ button:hover, button:active {
 .container {
 	display: flex;
 	flex-direction: column;
-	width: 100%;
-	height: 100vh;
+	max-width: 1400px;
+	max-height: auto;
 	align-items: center;
 	justify-content: center;
-	outline: 2px solid red;
 	font-family: source sans pro;
 }
 
@@ -231,20 +248,18 @@ nav {
 .card-container {
 	display: flex;
 	flex-direction: row;
-	outline: 4px dotted orange;
+	gap: 58px;
 }
 
 .header-div-whatdo {
 	padding-bottom: 50px;
 	max-width: 637px;
 	max-height: auto;
-	outline: 2px dotted blue;
 }
 
 .whatdo-p {
 	max-width: 100%;
 	max-height: 100%;
-	outline: 2px dotted green;
 }
 
 
@@ -252,18 +267,43 @@ nav {
 .continer-glyph {
 	display: flex;
 	flex-direction: row;
-	
+}
+
+.glyph {
+	font-family: 'HolbertonSchoolIcon';
+	font-size: 45px;
+	color:#FF6565;
 }
 
 .card-glyph {
-
-	outline: 4px solid black;
+	display: flex;
+	flex-direction: column;
+	align-self: center;
+	align-items: center;
+	justify-content: center;
+	max-width: 207px;
+	max-height: 180px;
 }
 
+.glyph-sound:before {
+	content:"\e90e";
+}
 
+.glyph-cutboard:before {
+	content: "\e910";
+}
 
+.glyph-musicnote:before {
+	content: "\e90d";
+}
 
+.glyph-ear:before {
+	content: "\e909";
+}
 
+/* Results speak section */
+
+.
 
 /* Tristian Did Footer Section for all 3 sizes */
 /* Start of Footer Section */
@@ -275,7 +315,6 @@ footer {
 	justify-content: space-between;
 	background-color: #071629;
 	color: #ffffff;
-
 	width: 100%;
 	height: 249px;
 }
@@ -289,19 +328,6 @@ footer {
 	max-width: 1000px;
 	height: 32px;
 	margin-top: 95px;
-}
-
-.icon-social {
-    font-family: 'HolbertonSchoolIcon' !important;
-    font-style: normal;
-    font-weight: normal;
-    font-variant: normal;
-    text-transform: none;
-    line-height: 1;
-
-	font-size: 30px;
-	width: 30px;
-	height: 30px;
 }
 
 .logo-footer {
