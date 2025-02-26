@@ -270,6 +270,7 @@ nav {
 	padding-bottom: 50px;
 	max-width: 637px;
 	max-height: auto;
+	padding-top: 75px;
 }
 
 .whatdo-p {
@@ -394,7 +395,7 @@ nav {
 	font-family: 'Source Sans Pro', sans-serif;
 
 }
-}
+
 
 /* end media  */
 
@@ -403,7 +404,7 @@ nav {
 	align-items: center;
 	color: #ffffff;
 	text-align: center;
-	padding-top: 35px;
+	padding-top: 95px;
 }
 
 .container-results {
@@ -487,7 +488,8 @@ nav {
     justify-content: center;
     align-items: center;
     background-color: white;
-    padding-bottom: 50px;
+    padding-bottom: 75px;
+	padding-top: 75px;
 }
 
 .header-div-contact {
