@@ -272,7 +272,7 @@ nav {
 }
 
 .whatdo-p {
-	max-width: 100%;
+	max-width: 90%;
 	max-height: 100%;
 	text-align: center;
 }
@@ -282,6 +282,7 @@ nav {
 .container-glyph {
 	display: flex;
 	flex-direction: row;
+	max-width: 90%;
 }
 
 .glyph {
@@ -425,9 +426,11 @@ nav {
 .container-pent {
 	display: flex;
 	flex-direction: row;
+	flex-wrap: wrap;
 	align-items: center;
 	justify-content: space-between;
 	margin-top: 50px;
+	max-width: 90%;
 }
 
 .red-pent {
