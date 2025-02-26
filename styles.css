@@ -502,6 +502,7 @@ nav {
     display: flex;
     flex-direction: column;
     gap: 15px;
+	align-items: center;
 }
 
 .input-group {
@@ -533,20 +534,22 @@ nav {
 }
 
 .contact-button {
-    background-color: #ff6600;
+    background-color: #FF6565;
     color: white;
     border: none;
     padding: 12px;
-    font-size: 18px;
+    font-size: 14px;
+	line-height: 18px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 700;
     cursor: pointer;
     border-radius: 100px;
     transition: 0.3s;
+	width: 162px;
+	height: 44px;
+	text-align: center;
 }
 
-.contact-button:hover {
-    background-color: #cc5200;
-	opacity: 0.9;
-}
 
 
 /* Tristian Did Footer Section for all 3 sizes */
