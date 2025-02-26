@@ -246,6 +246,19 @@ nav {
 
 /* what we do section*/
 
+@media (max-width: 768px) { 
+	.card-container {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		align-items: center;
+		max-width: 472px;
+	}
+}
+
+/* end media */
+
 .card-container {
 	display: flex;
 	flex-direction: row;
@@ -273,7 +286,7 @@ nav {
 
 .glyph {
 	font-family: 'HolbertonSchoolIcon';
-	font-size: 45px;
+	font-size: 96px;
 	color:#FF6565;
 }
 
