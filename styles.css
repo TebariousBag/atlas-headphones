@@ -56,6 +56,8 @@ button:hover, button:active {
 	display: flex;
 	flex-direction: column;
 	max-width: 1400px;
+	max-height: 100%;
+	min-height: 100vh;
 	align-items: center;
 	justify-content: center;
 	font-family: source sans pro;
@@ -321,8 +323,7 @@ nav {
 /* Results speak section - John  */
 /* not completed yet */
 
-@media (max-width: 768px) {
-	.container-results {
+.container-results {
 		display: flex;
 		align-items: center;
 		flex-direction: column;
@@ -330,12 +331,11 @@ nav {
 		background-size: cover;
 		background-position: center;
 		max-width: 768px;
-		height: auto;
+		max-height: 90%;
 		color: #ffffff;
 		text-align: center;
 		padding-bottom: 180px;
 	}
-
 
 .container-pent {
 	display: flex;
@@ -415,7 +415,7 @@ nav {
 		background-position: center;
 		max-width: 1400px;
 		height: auto;
-		max-height: 650px;
+		max-height: 90%;
 		color: #ffffff;
 		text-align: center;
 		padding-bottom: 180px;
@@ -525,6 +525,11 @@ nav {
     font-size: 16px;
 }
 
+.input-group input:focus,
+.input-group textarea:focus {
+    border-bottom: 2px solid #cc5200;
+}
+
 .contact-button {
     background-color: #ff6600;
     color: white;
@@ -538,6 +543,7 @@ nav {
 
 .contact-button:hover {
     background-color: #cc5200;
+	opacity: 0.9;
 }
 
 
