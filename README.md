@@ -1,5 +1,6 @@
 # Headphones Group Project
 
+## Made a Custom Wireframe of the HTML
 ![image](https://github.com/user-attachments/assets/84dcc011-c453-4b02-8691-211913a47d65)
 
 ## Will be updated along the way
