@@ -410,6 +410,29 @@ nav {
 }
 
 /* end media  */
+/*media 1035px */
+@media (min-width: 1035px) {
+	.row-1 {
+		display: flex;
+		flex-wrap: nowrap;
+		flex-direction: row;
+	}
+	.row-2 {
+		display: flex;
+		flex-wrap: nowrap;
+		flex-direction: row;
+	}
+	.container-pent {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: nowrap;
+		align-items: center;
+		justify-content: space-around;
+		margin-top: 50px;
+		max-width: 90%;
+	}
+}
+/* end media  */
 
 .header-div-results {
 	display: flex;
@@ -440,7 +463,7 @@ nav {
 	flex-direction: row;
 	flex-wrap: wrap;
 	align-items: center;
-	justify-content: space-between;
+	justify-content: space-around;
 	margin-top: 50px;
 	max-width: 90%;
 }
