@@ -324,6 +324,17 @@ nav {
 /* Results speak section - John  */
 /* not completed yet */
 
+@media (max-width: 480px) {
+
+	.header-div-results {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		color: #ffffff;
+		text-align: center;
+		padding-top: 95px;
+	}
+
 .container-results {
 		display: flex;
 		align-items: center;
@@ -331,7 +342,7 @@ nav {
 		background-image: url(images/headphones_hero_2.jpg);
 		background-size: cover;
 		background-position: center;
-		max-width: 768px;
+		max-width: 480px;
 		max-height: 90%;
 		color: #ffffff;
 		text-align: center;
@@ -340,10 +351,9 @@ nav {
 
 .container-pent {
 	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
+	flex-direction: column;
 	align-items: center;
-	max-width: 500px;
+	max-width: 480px;
 }
 
 .red-pent {
@@ -395,7 +405,7 @@ nav {
 	font-family: 'Source Sans Pro', sans-serif;
 
 }
-
+}
 
 /* end media  */
 
@@ -482,6 +492,37 @@ nav {
 }
 
 /* The contact us section - John */
+
+@media (max-width: 480px) {
+	.input-group {
+		display: flex;
+		flex-direction: column;
+		text-align: left;
+		max-width: 335px;
+		max-height: 29px;
+		font-family: 'Source Sans Pro', sans-serif;
+		font-size: 14px;
+		color: #071629;
+	}
+	
+	.messages .text .email {
+		max-width: 85%;
+	}
+
+	.input-group input,
+.input-group textarea {
+    max-width: 85%;
+	height: 29px;
+    padding: 20px;
+    border: none;
+    border-top: 2px solid #071629;
+	background: transparent;
+	outline: none;
+	resize: none;
+    font-size: 16px;
+	opacity: 17%;
+}
+}
 
 .contact-section {
     display: flex;
