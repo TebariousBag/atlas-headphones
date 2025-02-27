@@ -324,7 +324,7 @@ nav {
 /* Results speak section - John  */
 /* not completed yet */
 
-@media (max-width: 480px) {
+@media (max-width: 517px) {
 
 	.header-div-results {
 		display: flex;
@@ -354,6 +354,8 @@ nav {
 	flex-direction: column;
 	align-items: center;
 	max-width: 480px;
+	margin-left: 30%;
+	margin-right: 30%;
 }
 
 .red-pent {
