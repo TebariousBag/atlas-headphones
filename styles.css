@@ -500,8 +500,7 @@ nav {
 
 .header-div-contact {
     text-align: center;
-    max-width: 600px;
-    width: 335px;
+    max-width: 335px;
 }
 
 
@@ -525,8 +524,8 @@ nav {
 	color: #071629;
 }
 
-.messages {
-	max-width: 335px;
+.messages .text .email {
+	max-width: 90%;
 }
 .input-group label {
     font-weight: bold;
