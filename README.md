@@ -1,7 +1,7 @@
 # Headphones Group Project
 
 ## Overview
-In this project we are taking a Figma art file and converting it into a wersponsive page.
+In this project we are taking a Figma art file and converting it into a responsive page for multiple screen sizes.
 ![image](https://github.com/user-attachments/assets/ae69551f-e2c9-49e1-b371-523a4324f905)
 
 
