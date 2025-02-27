@@ -16,5 +16,5 @@ After getting the HTML in place we worked on styling it with CSS. Most of it was
 https://tebariousbag.github.io/atlas-headphones/
 
 ## Authors
-Tristian Davis
+Tristian Davis &
 John Wilson
