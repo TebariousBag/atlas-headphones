@@ -205,6 +205,7 @@ nav {
 		justify-content: center;
 		margin-top: 350px;
 		max-width: 480px;
+		text-align: center;
 	}
 	.menu {
         flex-direction: column;
@@ -213,11 +214,14 @@ nav {
     }
 
 	.h1-header {
-		padding: 0px;
+		text-align: center;
+		margin: 0 auto;
+		width: 90%;
 	}
-
 	.h2-header {
-		padding: 0px;
+		margin: 0 auto;
+		text-align: center;
+		width: 90%;
 	}
 
 	.text-header {
