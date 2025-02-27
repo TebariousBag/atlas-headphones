@@ -492,45 +492,58 @@ nav {
 	padding-top: 75px;
 }
 
+.contact_us {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 32px;
+	color: #071629;
+}
+
 .header-div-contact {
     text-align: center;
     max-width: 600px;
-    width: 90%;
+    width: 335px;
 }
+
 
 .contact-form {
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 30px;
+	max-width: 335px;
+	max-height: 373px;
 	align-items: center;
 }
 
 .input-group {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     text-align: left;
+	max-width: 335px;
+	max-height: 29px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 14px;
+	color: #071629;
 }
 
+.messages {
+	max-width: 335px;
+}
 .input-group label {
     font-weight: bold;
-    margin-bottom: 5px;
 }
 
 .input-group input,
 .input-group textarea {
-    width: 100%;
-    padding: 10px;
+    width: 335px;
+	height: 29px;
+    padding: 20px;
     border: none;
-    border-bottom: 2px solid #000;
+    border-top: 2px solid #071629;
 	background: transparent;
 	outline: none;
 	resize: none;
     font-size: 16px;
-}
-
-.input-group input:focus,
-.input-group textarea:focus {
-    border-bottom: 2px solid #cc5200;
+	opacity: 17%;
 }
 
 .contact-button {
@@ -548,6 +561,7 @@ nav {
 	width: 162px;
 	height: 44px;
 	text-align: center;
+	margin-top: 30px;
 }
 
 
