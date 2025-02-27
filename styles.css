@@ -468,7 +468,6 @@ nav {
 
 .card-glyph-red {
     position: relative;
-	
 	padding: 20px;
     width: 190px;
     height: 190px;
@@ -476,7 +475,7 @@ nav {
 
 .overlay-text {
     position: absolute;
-    top: 20%;
+    top: 25%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
